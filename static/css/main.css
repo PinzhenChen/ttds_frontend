@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url(../img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.textLabel {
+  color:#f29d5c;
+  font-size:18px;
+}
+
+.textOrange {
+  color:#f29d5c;
+}
+
+.textSmall {
+  color:#e8e8e8;
+}
+
+.textWhite {
+  color:white;
+}
+
+.rowRegister {
+  margin-bottom:10px;
+}
+
+.customActive{
+  background-color:#11577a;
+}
+
+.textFontLarge{
+  font-size:120%;
+}
+
+#blur {
+  padding: 20px;      
+  width:80%;
+  margin:auto;
+  margin-top:40px;
+  margin-bottom:40px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.65);
+}
+
+#custom-search-input{
+  padding: 3px;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+#custom-search-input input{
+  border: 0;
+  color: black;
+  box-shadow: none;
+}
+
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+  font-size: 23px;
+}
