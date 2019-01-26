@@ -52,7 +52,7 @@ $course_list = $json['response']['docs'];
         <h2 class="textWhite">
             <?php echo $numFound . " results found for \"".$search_key."\":";?>
         </h2>
-        <h4 class="textWhite">There are <?php echo count($course_list);?> courses matching your search</h4>
+        <h4 class="textWhite">There are <?php echo $numFound;?> courses matching your search</h4>
         <div class = "container-fliud">
         <?php
             foreach($course_list as $course) {
@@ -61,7 +61,7 @@ $course_list = $json['response']['docs'];
                 $courseDesc = $course['courseDesc'][0];
                 $courseSummary = $course['courseSummary'][0];
                 $availability = $course['availability'][0];
-                $link = 'http://www.drps.ed.ac.uk/18-19/dpt/'.$course['link'][0];
+                $link = 'http://www.drps.ed.ac.uk/18-19/dpt/'.$course['link'];
 
                 $h3_maybe = "<h3 class='textWhite' style='margin-top:0px;'>May be sutiable for:</h3>";
                 $h4tag = "<h4 class='textLabel'>";
