@@ -52,7 +52,7 @@ $course_list = $json['response']['docs'];
         <h2 class="textWhite">
             <?php echo $numFound . " results found for \"".$search_key."\":";?>
         </h2>
-        <h4 class="textWhite">There are <?php echo $numFound;?> courses matching your search</h4>
+        <h4 class="textWhite">There are <?php echo $numFound;?> courses matching your search in <?php echo $option;?></h4>
         <div class = "container-fliud">
         <?php
             foreach($course_list as $course) {
