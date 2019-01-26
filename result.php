@@ -19,7 +19,7 @@ if ($search_option == 1) {
     $option = 'courseSummary';
   }
 }
-$remote_url = 'http://104.248.163.205:8983/solr/CourseFinder/select?q='. $option . ':' . $search_key;
+$remote_url = 'http://104.248.163.205:8983/solr/CourseFinder/select?q='. $option . ':' . $search_key . '&rows=50';
 
 // Create a stream
 $opts = array(
