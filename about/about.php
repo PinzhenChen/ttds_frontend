@@ -18,7 +18,7 @@
 			<h3 class="textOrange">Contact Us!</h3>
 			<div class="row">
 				<div class="col-md-2">
-					<h4 class="textWhite" style="color:hotpink;">&nbsp;Web&nbsp;Developers</h4>
+					<h4 class="textWhite" style="color:hotpink;">Developers</h4>
 				</div>
 				<div class="col-md-10">
 					<h5 class="textWhite textFontLarge">Zheng Zhao - <a href="mailto:zheng.zhao@ttds.co.uk" class="textWhite">s1533564@sms.ed.ac.uk</a></h5>
