@@ -9,11 +9,11 @@
 		<div class = "container-fliud"  id="blur">
 			<h2 class="textWhite" style="text-align: center;">About Us</h2>
 			<h3 class="textOrange">Who We Are</h3>
-			<p class="textWhite textFontLarge">Placeholder<br/><p>
+			<p class="textWhite textFontLarge">We are a coursework group for TTDS 2018-19<br/><p>
 			<h3 class="textOrange">Our Mission</h3>
-			<p class="textWhite textFontLarge">Placeholder<br/></p>
+			<p class="textWhite textFontLarge">We are devoted to better DRPS information retrieval<br/></p>
 			<h3 class="textOrange">How To Use</h3>
-			<p class="textWhite textFontLarge">Placeholder</p>
+			<p class="textWhite textFontLarge">It is a search engine with AI functionality</p>
 
 			<h3 class="textOrange">Contact Us</h3>
 			<div class="row">
