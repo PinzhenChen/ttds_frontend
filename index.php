@@ -10,7 +10,7 @@
             <div class="container-fluid">
                 <div>
                    <h2 style="color: azure;">Course Information Made Easy</h2>
-                   <p style="color: azure;">This platform aims to achieve easy and smooth course related information searching</p>
+                   <p style="color: azure;">This platform aims to achieve easy and powerful course related information searching</p>
                 </div>
                 <form action="./result.php" method="POST" name="searchForm" onsubmit="return validateSearchForm()">
                     <div class="row" style="padding-top: 80px;">
