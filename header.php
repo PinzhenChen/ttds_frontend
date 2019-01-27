@@ -42,7 +42,7 @@ $path_main_js = "http://104.248.163.205/static/js/main.js";
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href=<?php echo $path_index_php;?>>TTDS</a>
+          <a class="navbar-brand" href=<?php echo $path_index_php;?>>EasyDRPS</a>
         </div>
         
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
