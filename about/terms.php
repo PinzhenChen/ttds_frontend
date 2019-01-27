@@ -55,7 +55,7 @@
 
 <h2>Contact Us</h2>
 
-<p>If you have any questions about these Terms, please contact us.</p>
+<p>If you have any questions about these Terms, please contact us at s1527244@sms.ed.ac.uk or s1533564@sms.ed.ac.uk.</p>
         </div>                         
     </div>
 </main>

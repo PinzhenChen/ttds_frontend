@@ -21,8 +21,8 @@
 					<h4 class="textWhite" style="color:hotpink;">&nbsp;Developers</h4>
 				</div>
 				<div class="col-md-10">
-					<h5 class="textWhite textFontLarge">Zheng Zhao - <a href="mailto:zheng.zhao@ttds.co.uk" class="textWhite">zheng.zhao@ttds.co.uk</a></h5>
-					<h5 class="textWhite textFontLarge">Pinzhen Chen - <a href="mailto:pinzhen.chen@ttds.co.uk" class="textWhite">pinzhen.chen@ttds.co.uk</a></h5>
+					<h5 class="textWhite textFontLarge">Zheng Zhao - <a href="mailto:zheng.zhao@ttds.co.uk" class="textWhite">s1533564@sms.ed.ac.uk</a></h5>
+					<h5 class="textWhite textFontLarge">Pinzhen (Patrick) Chen - <a href="mailto:pinzhen.chen@ttds.co.uk" class="textWhite">s1527244@sms.ed.ac.uk</a></h5>
 				</div>
 			</div>
 		</div>
