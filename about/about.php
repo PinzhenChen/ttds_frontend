@@ -15,7 +15,7 @@
 			<h3 class="textOrange">How To Use</h3>
 			<p class="textWhite textFontLarge">It is a search engine with AI functionality. Try it out!</p>
 
-			<h3 class="textOrange">Contact Us!</h3>
+			<h3 class="textOrange">Contact Us</h3>
 			<div class="row">
 				<div class="col-md-2">
 					<h4 class="textWhite" style="color:hotpink;">Developers</h4>
