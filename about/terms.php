@@ -39,7 +39,7 @@
 
 
 
-<h class="textOrange">Governing Law</h2>
+<h2 class="textOrange">Governing Law</h2>
 
 <p class="textWhite textFontLarge">These Terms shall be governed and construed in accordance with the laws of United Kingdom, without regard to its conflict of law provisions.</p>
 
