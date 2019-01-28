@@ -19,7 +19,7 @@
                         <div class="col-md-6">
                             <div id="custom-search-input" class="form-group">
                                 <div class="input-group col-md-12">
-                                    <input type="text" class="form-control input-lg" placeholder="Search courses" name="keyword" required>
+                                    <input type="text" class="form-control input-lg" placeholder="Enter your keywords" name="keyword" required>
                                     <span class="input-group-btn">
                                         <button type="submit">
                                             <!-- <i class="glyphicon glyphicon-search" style="color: #2c3e50;"></i> -->
