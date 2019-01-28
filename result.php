@@ -6,14 +6,16 @@ $pwd = '';
 $database ='';
 $table ='';
 $search_key = $_POST["keyword"];
-$search_option = $_POST["option"];
+// $search_option = $_POST["option"];
 
 // just for demo will be replaced by real connection to database
 $username = "ttds";
 $password = "ttdscw2";
-$option = 'courseName';
-if ($search_option == 1) {
-  $option = 'courseDesc';
+
+$search_option = 1;
+$option = 'courseDesc';
+if ($search_option == 0) {
+  $option = 'courseName';
 } else {
   if ($search_option == 2) {
     $option = 'courseSummary';

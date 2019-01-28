@@ -28,7 +28,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="form-checks textWhite">
+                            <!-- <div class="form-checks textWhite">
                                 <label class="radio-inline">
                                     <input type="radio" name="option" value="0" id="courseName" required>Course Name
                                 </label>
@@ -38,7 +38,7 @@
                                 <label class="radio-inline">
                                     <input type="radio" name="option" value="2" id="courseSummary" required>Course Summary
                                 </label>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-md-3">
                         </div>
