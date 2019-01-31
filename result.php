@@ -65,7 +65,9 @@ $course_list = $json['response']['docs'];
                 $code = $course['code'][0];
                 $courseName = $course['courseName'][0];
                 $courseDesc = $course['courseDesc'][0];
+                $truc_courseDesc = substr($courseDesc, 0, 44) . "......";
                 $courseSummary = $course['courseSummary'][0];
+                $truc_courseSummary = substr($courseSummary, 0, 44) . "......";
                 $availability = $course['availability'][0];
                 $link = 'http://www.drps.ed.ac.uk/18-19/dpt/'.$course['link'];
 
@@ -78,7 +80,7 @@ $course_list = $json['response']['docs'];
                     <div class="row">
                         <div class="col-md-12">
                         <span class="textWhite"><span class="glyphicon glyphicon-tag"></span>&nbsp;<h3 style="display:inline;">Title: </h3><span class="textLabel"><h3 style="display:inline;">{$courseName}</h3></span></span>
-                            <h4 class="textWhite"><span class="glyphicon glyphicon-education"></span>&nbsp;Summary: <span class="textLabel">{$courseSummary}</span></h4>
+                            <h4 class="textWhite"><span class="glyphicon glyphicon-education"></span>&nbsp;Summary: <span class="textLabel">{$truc_courseSummary}</span></h4>
                         </div>
 
                     </div>
@@ -89,7 +91,7 @@ $course_list = $json['response']['docs'];
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="textWhite"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Description: <span class="textLabel">{substr($courseDesc, 0, 49)}</span></h4>
+                            <h4 class="textWhite"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Description: <span class="textLabel">{$truc_courseDesc}</span></h4>
                         </div>
                     </div>
                 </div>
