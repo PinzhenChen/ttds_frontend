@@ -89,7 +89,7 @@ $course_list = $json['response']['docs'];
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="textWhite"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Description: <span class="textLabel">{$courseDesc}</span></h4>
+                            <h4 class="textWhite"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Description: <span class="textLabel">{substr($courseDesc, 0, 49)}</span></h4>
                         </div>
                     </div>
                 </div>
