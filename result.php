@@ -64,9 +64,9 @@ $course_list = $json['response']['docs'];
                 $code = $course['code'][0];
                 $courseName = $course['courseName'][0];
                 $courseDesc = $course['courseDesc'][0];
-                $truc_courseDesc = implode(" ", array_slice(explode(" ", $courseDesc), 0, 20, true)) . "......";
+                $truc_courseDesc = implode(" ", array_slice(explode(" ", $courseDesc), 0, 30, true)) . "......";
                 $courseSummary = $course['courseSummary'][0];
-                $truc_courseSummary = implode(" ", array_slice(explode(" ", $courseSummary), 0, 20, true)) . "......";
+                $truc_courseSummary = implode(" ", array_slice(explode(" ", $courseSummary), 0, 30, true)) . "......";
                 $availability = $course['availability'][0];
                 $link = 'http://www.drps.ed.ac.uk/18-19/dpt/'.$course['link'];
 
