@@ -5,7 +5,7 @@ $user = '';
 $pwd = '';
 $database ='';
 $table ='';
-$search_key = $_POST["keyword"];
+$search_key = str_replace(' ', '%20', $_POST["keyword"]);
 // $search_option = $_POST["option"];
 
 // just for demo will be replaced by real connection to database
