@@ -5,23 +5,23 @@ $user = '';
 $pwd = '';
 $database ='';
 $table ='';
-$search_key = str_replace(' ', '%20', $_POST["keyword"]);
+$search_key = $_POST["keyword"];
 // $search_option = $_POST["option"];
 
 // just for demo will be replaced by real connection to database
 $username = "ttds";
 $password = "ttdscw2";
 
-$search_option = 1;
-$option = 'courseDesc';
-if ($search_option == 0) {
-  $option = 'courseName';
-} else {
-  if ($search_option == 2) {
-    $option = 'courseSummary';
-  }
-}
-$remote_url = 'http://104.248.163.205:8983/solr/CourseFinder/select?q='. $option . ':' . $search_key . '&rows=50';
+// $search_option = 1;
+// $option = 'courseDesc';
+// if ($search_option == 0) {
+//   $option = 'courseName';
+// } else {
+//   if ($search_option == 2) {
+//     $option = 'courseSummary';
+//   }
+// }
+$remote_url = 'http://104.248.163.205:8983/solr/CourseFinder/select?q=' . str_replace(' ', '%20', $search_key) . '&rows=50';
 
 // Create a stream
 $opts = array(
