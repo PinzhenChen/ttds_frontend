@@ -54,7 +54,6 @@ $course_list = $json['response']['docs'];
         <h2 class="textWhite">
             <?php echo $numFound . " results found for \"".$search_key."\":";?>
         </h2>
-        <h4 class="textWhite">There are <?php echo $numFound;?> courses matching your search in <?php echo $option;?></h4>
         <div class = "container-fliud">
         <div id='blur'>
           <h4 class="textWhite">Getting information from our dedicated AI bot. Please Wait....</h4>
