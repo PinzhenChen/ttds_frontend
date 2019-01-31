@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<?php 
+<?php
 $path_frontend_folder = "http://104.248.163.205/";
 
 $path_index_php = $path_frontend_folder . "index.php";
@@ -23,7 +23,7 @@ $path_main_js = "http://104.248.163.205/static/js/main.js";
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href=<?php echo $path_main_css;?>>
 
-        <title>DRPS Search</title>
+        <title>EasyDRPS</title>
 
         <!-- icon -->
         <link rel="icon" type="image/png" href="http://www.tradedin.co.uk/static/img/tradedin_logo.png">
@@ -44,15 +44,15 @@ $path_main_js = "http://104.248.163.205/static/js/main.js";
           </button>
           <a class="navbar-brand" href=<?php echo $path_index_php;?>>EasyDRPS</a>
         </div>
-        
+
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li id="home"><a href=<?php echo $path_index_php;?>>Search</a></li>
             <li class="dropdown" id="about">
               <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">About <span class="caret"></span></a>
               <ul class="dropdown-menu" style="background-color:#fff;">
-                <li><a href=<?php echo $path_about_php;?>>About Us</span></a></li> 
-                <li><a href=<?php echo $path_terms_php;?>>Terms &amp; Conditions</a></li> 
+                <li><a href=<?php echo $path_about_php;?>>About Us</span></a></li>
+                <li><a href=<?php echo $path_terms_php;?>>Terms &amp; Conditions</a></li>
               </ul>
             </li>
           </ul>
