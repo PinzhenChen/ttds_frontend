@@ -40,8 +40,16 @@
 				<div class="col-md-10">
 					<h5 class="textWhite textFontLarge">Weijian Li</h5>
 				</div>
-			<!-- </div>
+			</div>
       <div class="row">
+        <div class="col-md-2">
+					<h4 class="textWhite" style="color:hotpink;">Query Expansion</h4>
+				</div>
+				<div class="col-md-10">
+					<h5 class="textWhite textFontLarge">Yijie Chen</h5>
+				</div>
+			</div>
+      <!-- <div class="row">
         <div class="col-md-2">
 					<h4 class="textWhite" style="color:hotpink;">Question Answering</h4>
 				</div>
