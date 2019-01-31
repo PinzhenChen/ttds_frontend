@@ -56,7 +56,7 @@ $course_list = $json['response']['docs'];
         </h2>
         <div class = "container-fliud">
         <div id='blur'>
-          <h4 class="textWhite">Getting information from our dedicated AI bot. Please Wait....</h4>
+          <h4 class="textWhite">Getting information from our dedicated Dr QA. Please Wait....</h4>
           <img src="static/img/ajax-loader.gif" alt="Loading" />
         </div>
         <?php
