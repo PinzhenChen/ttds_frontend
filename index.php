@@ -2,7 +2,7 @@
 include_once('./header.php');
 $filter_flag = $_POST["filter_flag"];
 echo
-<<<<HTML
+<<<HTML
 <style>
 #home{
     background: #1a242f;
@@ -52,7 +52,7 @@ echo
 HTML;
 if ($filter_flag == "1") {
     echo
-<<<<HTML
+<<<HTML
 <form action="./index.php" method="POST" name="filter_flag">
     <a class="collapsible" type="submit" value="1">Filters</a>
 </form>
@@ -60,7 +60,7 @@ HTML;
 }
 
 echo
-<<<<HTML
+<<<HTML
             </div>
         </body>
     </main>
