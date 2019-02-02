@@ -31,14 +31,6 @@ echo
                                             <span class="glyphicon glyphicon-search"></span>
                                         </button>
                                     </span>
-
-                                                    <form action="./index.php" method="POST" >
-                                                      <div class="col-md-3">
-                                                      </div>
-                                                      <div class="col-md-6">
-                                                        <button type="submit" name="filter_flag" value="1"><span class="glyphicon glyphicon-filter"></span></button>
-                                                      </div>
-                                                    </form>                                    
                                 </div>
                             </div>
 HTML;
@@ -85,6 +77,13 @@ HTML;
                     </div>
                 </form>
 
+                <form action="./index.php" method="POST" >
+                  <div class="col-md-3">
+                  </div>
+                  <div class="col-md-6">
+                    <button type="submit" name="filter_flag" value="1"><span class="glyphicon glyphicon-filter"></span></button>
+                  </div>
+                </form>
 
             </div>
         </body>
