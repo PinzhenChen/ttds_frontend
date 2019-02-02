@@ -33,6 +33,32 @@ echo
                                     </span>
                                 </div>
                             </div>
+HTML;
+                            if ($filter_flag == "1") {
+                                echo
+<<<HTML
+                            <!-- SELECT BOX -->
+                            <div class="custom-select" style="width:200px;">
+                              <select>
+                                <option value="0">Select car:</option>
+                                <option value="1">Audi</option>
+                                <option value="2">BMW</option>
+                                <option value="3">Citroen</option>
+                                <option value="4">Ford</option>
+                                <option value="5">Honda</option>
+                                <option value="6">Jaguar</option>
+                                <option value="7">Land Rover</option>
+                                <option value="8">Mercedes</option>
+                                <option value="9">Mini</option>
+                                <option value="10">Nissan</option>
+                                <option value="11">Toyota</option>
+                                <option value="12">Volvo</option>
+                              </select>
+                            </div>
+HTML;}
+
+echo
+<<<HTML
                             <!-- <div class="form-checks textWhite">
                                 <label class="radio-inline">
                                     <input type="radio" name="option" value="0" id="courseName" required>Course Name
@@ -54,20 +80,10 @@ echo
                   <div class="col-md-3">
                   </div>
                   <div class="col-md-6">
-                    <button type="submit" name="filter_flag" value="1">Filters</button>
+                    <button type="submit" name="filter_flag" value="1"><span class="glyphicon glyphicon-filter"></span></button>
                   </div>
                 </form>
-HTML;
-if ($filter_flag == "1") {
-    echo
-<<<HTML
-<!-- SELECT BOX -->
-<p>lalala</p>
-HTML;
-}
 
-echo
-<<<HTML
             </div>
         </body>
     </main>
