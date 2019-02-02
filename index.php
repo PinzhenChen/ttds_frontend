@@ -34,8 +34,8 @@ echo
                                 </div>
                             </div>
 HTML;
-                            if ($filter_flag == "1") {
-                                echo
+if ($filter_flag == "1") {
+    echo
 <<<HTML
                             <!-- SELECT BOX -->
                             <div class="custom-select" style="width:200px;">
@@ -55,9 +55,10 @@ HTML;
                                 <option value="12">Volvo</option>
                               </select>
                             </div>
-HTML;}
+HTML;
+}
 
-echo
+  echo
 <<<HTML
                             <!-- <div class="form-checks textWhite">
                                 <label class="radio-inline">
@@ -88,4 +89,6 @@ echo
         </body>
     </main>
 HTML;
-include_once('./footer.php');?>
+
+include_once('./footer.php');
+?>
