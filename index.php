@@ -28,6 +28,10 @@
                                     </span>
                                 </div>
                             </div>
+                            <button class="collapsible">Open Collapsible</button>
+                            <div class="content">
+                              <p>test</p>
+                            </div>
                             <!-- <div class="form-checks textWhite">
                                 <label class="radio-inline">
                                     <input type="radio" name="option" value="0" id="courseName" required>Course Name
