@@ -38,23 +38,24 @@ if ($filter_flag == "1") {
     echo
 <<<HTML
                             <!-- SELECT BOX -->
-                            <div class="custom-select" style="width:200px;">
-                              <select>
-                                <option value="0">Select car:</option>
-                                <option value="1">Audi</option>
-                                <option value="2">BMW</option>
-                                <option value="3">Citroen</option>
-                                <option value="4">Ford</option>
-                                <option value="5">Honda</option>
-                                <option value="6">Jaguar</option>
-                                <option value="7">Land Rover</option>
-                                <option value="8">Mercedes</option>
-                                <option value="9">Mini</option>
-                                <option value="10">Nissan</option>
-                                <option value="11">Toyota</option>
-                                <option value="12">Volvo</option>
+                            <div class="form-group">
+                              <label for="sel1">Select list (select one):</label>
+                              <select class="form-control" id="sel1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
                               </select>
-                            </div>
+                              <br>
+                              <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+                              <select multiple class="form-control" id="sel2">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                          </div>
 HTML;
 }
 
