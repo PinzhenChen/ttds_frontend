@@ -28,7 +28,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <button class="collapsible">Open Collapsible</button>
+                            <span class="collapsible">Filters</span>
                             <div class="content">
                               <p>test</p>
                             </div>
