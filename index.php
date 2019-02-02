@@ -49,13 +49,16 @@ echo
                         </div>
                     </div>
                 </form>
+
+                <form action="./index.php" method="POST" name="filter_flag">
+                    <a class="collapsible" type="submit" value="1">Filters</a>
+                </form>
 HTML;
 if ($filter_flag == "1") {
     echo
 <<<HTML
-<form action="./index.php" method="POST" name="filter_flag">
-    <a class="collapsible" type="submit" value="1">Filters</a>
-</form>
+<!-- SELECT BOX -->
+<p>lalala</p>
 HTML;
 }
 
