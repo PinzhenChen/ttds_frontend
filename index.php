@@ -1,4 +1,8 @@
-<?php include_once('./header.php');?>
+<?php
+include_once('./header.php');
+$filter_flag = $_POST["filter_flag"];
+echo
+<<<<HTML
 <style>
 #home{
     background: #1a242f;
@@ -21,32 +25,13 @@
                                 <div class="input-group col-md-12">
                                     <input type="text" class="form-control input-lg" placeholder="Enter your keywords" name="keyword" required>
                                     <span class="input-group-btn">
-                                        <button type="submit">
+
+                                         <button type="submit">
                                             <!-- <i class="glyphicon glyphicon-search" style="color: #2c3e50;"></i> -->
                                             <span class="glyphicon glyphicon-search"></span>
                                         </button>
                                     </span>
                                 </div>
-                            </div>
-                            <script>
-                                var coll = document.getElementsByClassName("collapsible");
-                                var i;
-
-                                for (i = 0; i < coll.length; i++) {
-                                  coll[i].addEventListener("click", function() {
-                                    this.classList.toggle("active");
-                                    var content = this.nextElementSibling;
-                                    if (content.style.display === "block") {
-                                      content.style.display = "none";
-                                    } else {
-                                      content.style.display = "block";
-                                    }
-                                  });
-                                }
-                            </script>
-                            <span class="collapsible">Filters</span>
-                            <div class="content">
-                              <p>test</p>
                             </div>
                             <!-- <div class="form-checks textWhite">
                                 <label class="radio-inline">
@@ -64,8 +49,20 @@
                         </div>
                     </div>
                 </form>
+HTML;
+if ($filter_flag == "1") {
+    echo
+<<<<HTML
+<form action="./index.php" method="POST" name="filter_flag">
+    <a class="collapsible" type="submit" value="1">Filters</a>
+</form>
+HTML;
+}
+
+echo
+<<<<HTML
             </div>
         </body>
     </main>
-
-<?php include_once('./footer.php');?>
+HTML;
+include_once('./footer.php');?>
