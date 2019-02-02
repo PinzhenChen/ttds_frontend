@@ -30,22 +30,6 @@ $path_main_js = "http://104.248.163.205/static/js/main.js";
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src=<?php echo $path_main_js;?>></script>
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-        </script>
     </head>
 
   <body class="bg">
