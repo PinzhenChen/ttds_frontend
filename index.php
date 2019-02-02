@@ -50,8 +50,12 @@ echo
                     </div>
                 </form>
 
-                <form action="./index.php" method="POST" name="filter_flag">
-                    <a class="collapsible" type="submit" value="1">Filters</a>
+                <form action="./index.php" method="POST" >
+                  <div class="col-md-3">
+                  </div>
+                  <div class="col-md-6">
+                    <button type="submit" name="filter_flag" value="1">Filters</button>
+                  </div>
                 </form>
 HTML;
 if ($filter_flag == "1") {
