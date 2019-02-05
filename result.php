@@ -56,7 +56,7 @@ $course_list = $json['response']['docs'];
         </h2>
         <div class = "container-fliud">
         <div id='blur'>
-          <a href="http://104.248.163.205:8080">Feel like to have a chat with our AI?</a>
+          <a href="//104.248.163.205:8080">Feel like to have a chat with our AI?</a>
           <img src="static/img/chatbot.jpg" alt="Chatbot" />
         </div>
         <?php
