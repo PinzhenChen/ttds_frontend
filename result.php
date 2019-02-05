@@ -56,8 +56,8 @@ $course_list = $json['response']['docs'];
         </h2>
         <div class = "container-fliud">
         <div id='blur'>
-          <h4 class="textWhite">Connecting to Dr QA. Please Wait....</h4>
-          <img src="static/img/ajax-loader.gif" alt="Loading" />
+          <a href="104.248.163.205:8080">Feel like to have a chat with our AI?</a>
+          <img src="static/img/chatbot.jpg" alt="Chatbot" />
         </div>
         <?php
             foreach($course_list as $course) {

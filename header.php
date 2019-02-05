@@ -32,7 +32,7 @@ $path_main_js = "http://104.248.163.205/static/js/main.js";
         <script type="text/javascript" src=<?php echo $path_main_js;?>></script>
     </head>
 
-  <body class="bg">
+	<body class="bg">
     <nav class="navbar navbar-inverse" style = "background-color: #2c3e50; border: 0px;">
       <div class="container-fluid">
         <div class="navbar-header">
